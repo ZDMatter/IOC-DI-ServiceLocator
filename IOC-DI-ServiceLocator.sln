@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxIoc", "SandBoxIoc\SandBoxIoc.csproj", "{AC4685DD-0C4A-4DDB-9A45-9E43C0A7B95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxIocDomain", "SandBoxIocDomain\SandBoxIocDomain.csproj", "{00F82078-AB80-4FC4-BEE0-BABDF77CDF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxIOC-Test", "SandBoxIOC-Test\SandBoxIOC-Test.csproj", "{2FCA0AEE-04CD-4B27-A4A7-9BF5544F0348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLocatorPattern", "ServiceLocatorPattern\ServiceLocatorPattern.csproj", "{12DC8361-39EF-41AD-B002-D2447EDBE3FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4685DD-0C4A-4DDB-9A45-9E43C0A7B95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4685DD-0C4A-4DDB-9A45-9E43C0A7B95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4685DD-0C4A-4DDB-9A45-9E43C0A7B95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4685DD-0C4A-4DDB-9A45-9E43C0A7B95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F82078-AB80-4FC4-BEE0-BABDF77CDF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F82078-AB80-4FC4-BEE0-BABDF77CDF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F82078-AB80-4FC4-BEE0-BABDF77CDF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F82078-AB80-4FC4-BEE0-BABDF77CDF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCA0AEE-04CD-4B27-A4A7-9BF5544F0348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCA0AEE-04CD-4B27-A4A7-9BF5544F0348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCA0AEE-04CD-4B27-A4A7-9BF5544F0348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCA0AEE-04CD-4B27-A4A7-9BF5544F0348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DC8361-39EF-41AD-B002-D2447EDBE3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DC8361-39EF-41AD-B002-D2447EDBE3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DC8361-39EF-41AD-B002-D2447EDBE3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DC8361-39EF-41AD-B002-D2447EDBE3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BDF008A-8C07-423A-8844-73908E724EC1}
+	EndGlobalSection
+EndGlobal

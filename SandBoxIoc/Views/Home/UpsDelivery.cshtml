@@ -1,0 +1,39 @@
+﻿@model SandBoxIocDomain.Domain.Shipping
+
+@{
+    ViewBag.Title = "UpsDelivery";
+}
+
+<h2>Ups Delivery</h2>
+
+<div>
+    <h4>Shipping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ShippingName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShippingName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupportPrioroty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupportPrioroty)
+        </dd>
+
+    </dl>
+</div>
+

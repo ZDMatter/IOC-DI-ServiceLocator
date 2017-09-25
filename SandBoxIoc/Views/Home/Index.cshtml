@@ -1,0 +1,102 @@
+﻿<style>
+    .item {
+        text-align: center;
+    }
+
+    .carousel .item img {
+        margin: 0 auto;
+    }
+</style>
+<div class="jumbotron">
+    <h2>Home to the DI!</h2>
+    <div class="text-success">
+        <div class="hidden">
+            Giving a function or object an object. <br />
+            Rather than creating an object inside a function or object, you pass it to the function or object.
+        </div>
+        Giving a function an object. <br />
+        Rather than creating an object inside a function, you pass it to the function.
+    </div>
+    <div class="span12">
+        <div style="width:100%;height:auto;" data-ride="carousel" data-interval="5000" class="carousel slide" id="unityRoller">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/images/di1.jpg" />
+                </div>
+
+                <div class="item">
+                    <img src="~/images/tool.jpg" />
+                </div>
+
+                <div class="item">
+                    <img src="~/images/di2.png" />
+                </div>
+
+                <div class="item">
+                    <img src="~/images/di3.png" />
+                </div>
+
+
+                <div class="item">
+                    <img src="~/images/Unity.jpg" />
+                </div>
+
+                <div class="item">
+                    <img src="~/images/DIOperation.png" />
+                </div>
+
+                <div class="item">
+                    <h3>Who can Inject!</h3>
+                    <ul>
+                        <li><a href="http://www.ninject.org/">Ninject</a></li>
+                        <li><a href="http://msdn.microsoft.com/en-us/library/dd203101.aspx" target="_blank">Unity</a></li>
+                        <li><a href="http://structuremap.net/structuremap/" target="_blank">StructureMap</a></li>
+                        <li><a href="http://www.autofac.org/" target="_blank">Autofac</a></li>
+                        <li><a href="http://www.springframework.net/" target="_blank">Spring.NET</a></li>
+
+                        <li hidden="hidden"><a href="http://simpleinjector.codeplex.com">Simple Injector</a></li>
+                        <li hidden="hidden"><a href="https://www.ohloh.net/p/5670">NauckIT.MicroKernel</a></li>
+                        <li hidden="hidden"><a href="http://www.castleproject.org/index.html">Castle MicroKernel/Windsor</a></li>
+                        <li hidden="hidden"><a href="http://www.winter4.net/">WINTER4NET</a></li>
+                        <li hidden="hidden"><a href="http://objectbuilder.codeplex.com/">ObjectBuilder</a></li>
+                        <li hidden="hidden"><a href="http://picocontainer.org/">PicoContainer.NET</a></li>
+
+                        <li>More... ;( </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#unityRoller" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="carousel-control right" href="#unityRoller" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Home Delivery</h2>
+        @Html.ActionLink("Home Delivery", "HomeDelivery", "Home", new { area = "" }, new { @class = "btn btn-primary" })
+    </div>
+    <div class="col-md-4">
+        <h2>Ups Delivery</h2>
+        <div class="btn">
+            @Html.ActionLink("Ups Delivery", "UpsDelivery", "Home", new { area = "" }, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Injected Delivery</h2>
+        <div class="btn">
+            @Html.ActionLink("Injected Delivery", "InjectDelivery", "Home", new { area = "" }, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div>
+        <span class="text-muted">
+            Can target to same view rather than two seperate views!
+        </span>
+    </div>
+</div>
